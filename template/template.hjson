@@ -13,7 +13,7 @@
     enable-all-modules: true
 
     imports: {
-        template: @https://raw.githubusercontent.com/EmmaTheMartian/Packboiler/main/templates/forge/20.1.hjson
+        template: @https://raw.githubusercontent.com/EmmaTheMartian/Packboiler/main/templates/forge/20.1-modrinth.hjson
     }
 
     modules: {
