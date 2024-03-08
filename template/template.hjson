@@ -1,8 +1,8 @@
 {
-    name: Template Forge 1.20.1
-    desc: Template Modpack
+    name: Electropunk (Main)
+    desc: An expert modpack based around a unique and complex tech progression.
 
-    pack-author: Your Name
+    pack-author: EmmaTheMartian
     pack-version: 1.0.0
 
     provider: modrinth
@@ -13,54 +13,22 @@
     enable-all-modules: true
 
     imports: {
-        template: @https://raw.githubusercontent.com/EmmaTheMartian/Packboiler/main/templates/forge/20.1-modrinth.hjson
+        core: ./template/core.hjson
+        impl: ./template/impl.hjson
     }
 
     modules: {
-        // Imported Modules
-        performance: {
-            from: $template
-            pick: {
-                embeddium-addons: [ "embeddiumplus" ]
-            }
-        }
+        // Core
+        electropunk-core: { from: "$core" }
 
-        performance-aggressive: { from: "$template" }
-
-        tweaks: { from: "$template" }
-
-        bugfixes: { from: "$template" }
-
-        multiplayer: {
-            from: $template
-            pick: {
-                serverless-multiplayer: []
-                voice-chat: []
-                discord-integration: [ "craftpresence" ]
-            }
-        }
-
-        extras: {
-            from: $template
-            pick: {
-                recipe-browser: [ "jei", "emi" ]
-                maps: [ "xaeros-minimap", "xaeros-world-map" ]
-                waila: [ "jade", "jade-addons-forge" ]
-                shaders: [ "oculus" ]
-            }
-        }
-
-        extras-packdev: {
-            from: $template
-            pick: {
-                ftb-suite: []
-                terrarium-suite: [
-                    heracles
-                    argonauts
-                    prometheus
-                    cadmus
-                ]
-            }
-        }
+        // Template
+        performance: { from: "$impl" }
+        performance-aggressive: { from: "$impl" }
+        tweaks: { from: "$impl" }
+        bugfixes: { from: "$impl" }
+        multiplayer: { from: "$impl" }
+        extras: { from: "$impl" }
+        extras-packdev: { from: "$impl" }
+        extras-emmas-picks: { from: "$impl" }
     }
 }

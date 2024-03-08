@@ -1,0 +1,89 @@
+{
+    name: Electropunk (Core)
+    desc: Core modules for the used for Electropunk
+
+    modules: {
+        electropunk-core: {
+            name: Electropunk (Core)
+            mods: [
+                // Logistics
+                integrated-crafting
+                integrated-dynamics
+                integrated-rest
+                integrated-scripting
+                integrated-terminals
+                integrated-tunnels
+                fluidsystem
+                dyeable-redstone-signal
+                pipez
+                super-factory-manager
+
+                // World
+                ecospherical-expansion
+                { name: "forgiving-world", provider: "curseforge" }
+
+                // Tech
+                factorium
+                nuclearcraft-neoteric
+                cc-tweaked
+                create
+                createaddition
+                ae2
+                enderio
+                energymeter
+                hyperbox
+                rftools-base
+                rftools-builder
+                rftools-control
+                rftools-power
+                rftools-storage
+                rftools-utility
+                railcraft-reborn
+
+                // General Mods
+                tetra
+                wizards-reborn
+
+                // Addons
+                create-central-kitchen
+                create-enchantment-industry
+                create-goggles
+                create-jetpack
+                create-ore-excavation
+                create-utilities
+                create-dreams-and-desires
+                create-steam-robots
+                estrogen
+                digital-items-3
+                turtle-charging-station
+                applied-energistics-2-wireless-terminals
+                merequester
+
+                // Compat
+                create-applied-kinetics
+                create-slice-and-dice
+                tetras-delight
+
+                // Misc
+                salvage-furnace
+                brick-furnace
+                ceramic-bucket
+                comforts
+                farmers-delight
+                duckling
+                fuel-canister
+                handcrafted
+                modern-ui
+                mavm
+                lootr
+                seamless-loading-screen
+                summoningrituals
+
+                // Packdev
+                kubejs-create
+                kubejs-enderio
+                probejs
+            ]
+        }
+    }
+}

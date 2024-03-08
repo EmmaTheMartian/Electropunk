@@ -1,0 +1,59 @@
+{
+    name: Electropunk (Template)
+    desc: Template implementation used for Electropunk
+
+    imports: {
+        template: @https://raw.githubusercontent.com/EmmaTheMartian/Packboiler/main/templates/forge/20.1-modrinth.hjson
+    }
+
+    modules: {
+        performance: {
+            from: $template
+            pick: {
+                embeddium-addons: [ ]
+            }
+        }
+
+        performance-aggressive: { from: "$template" }
+
+        tweaks: { from: "$template" }
+
+        bugfixes: { from: "$template" }
+
+        multiplayer: {
+            from: $template
+            pick: {
+                serverless-multiplayer: []
+                voice-chat: []
+                discord-integration: [ "craftpresence" ]
+            }
+        }
+
+        extras: {
+            from: $template
+            pick: {
+                recipe-browser: [ "jei", "emi" ]
+                maps: [ "xaeros-minimap", "xaeros-world-map" ]
+                waila: [ "jade", "jade-addons-forge" ]
+                shaders: [ "oculus" ]
+            }
+        }
+
+        extras-packdev: {
+            from: $template
+            pick: {
+                ftb-suite: []
+                terrarium-suite: [
+                    heracles
+                    argonauts
+                    prometheus
+                    cadmus
+                ]
+            }
+        }
+
+        extras-emmas-picks: {
+            from: $template
+        }
+    }
+}
