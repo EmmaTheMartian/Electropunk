@@ -20,6 +20,7 @@
 
                 // World
                 ecospherical-expansion
+                //TODO: Find a Modrinth alternative
                 { name: "forgiving-world", provider: "curseforge" }
 
                 // Tech

@@ -10,7 +10,7 @@
         performance: {
             from: $template
             pick: {
-                embeddium-addons: [ ]
+                embeddium-addons: [ "embeddiumplus" ]
             }
         }
 
@@ -42,7 +42,6 @@
         extras-packdev: {
             from: $template
             pick: {
-                ftb-suite: []
                 terrarium-suite: [
                     heracles
                     argonauts
