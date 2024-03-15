@@ -14,8 +14,6 @@
             }
         }
 
-        performance-aggressive: { from: "$template" }
-
         tweaks: { from: "$template" }
 
         bugfixes: { from: "$template" }

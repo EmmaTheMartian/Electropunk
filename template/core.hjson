@@ -6,18 +6,6 @@
         electropunk-core: {
             name: Electropunk (Core)
             mods: [
-                // Logistics
-                integrated-crafting
-                integrated-dynamics
-                integrated-rest
-                integrated-scripting
-                integrated-terminals
-                integrated-tunnels
-                fluidsystem
-                dyeable-redstone-signal
-                pipez
-                super-factory-manager
-
                 // World
                 ecospherical-expansion
                 //TODO: Find a Modrinth alternative
@@ -41,9 +29,14 @@
                 rftools-utility
                 railcraft-reborn
 
+                // Magic
+                wizards-reborn
+                theurgy
+                mana-and-artifice
+
                 // General Mods
                 tetra
-                wizards-reborn
+                farmers-delight
 
                 // Addons
                 create-central-kitchen
@@ -54,6 +47,10 @@
                 create-utilities
                 create-dreams-and-desires
                 create-steam-robots
+                create-mechanical-extruder
+                create-sifting
+                create-ratatouille
+                create-aquatic-ambitions
                 estrogen
                 digital-items-3
                 turtle-charging-station
@@ -65,25 +62,69 @@
                 create-slice-and-dice
                 tetras-delight
 
+                // Storage
+                ironchests
+                enderchests
+                endertanks
+                functional-storage
+                ceramic-bucket
+                storage-delight
+                beans-backpacks
+                trash-cans
+                integrated-crafting
+                integrated-dynamics
+                integrated-rest
+                integrated-scripting
+                integrated-terminals
+                integrated-tunnels
+                fluidsystem
+                pipez
+                super-factory-manager
+                item-collectors
+                skulk-transporting
+
                 // Misc
                 salvage-furnace
                 brick-furnace
-                ceramic-bucket
                 comforts
-                farmers-delight
                 duckling
-                fuel-canister
-                handcrafted
-                modern-ui
                 mavm
                 lootr
-                seamless-loading-screen
                 summoningrituals
+                wrenchest
+                allaybottle
+
+                // Decoration
+                rechiseled
+                handcrafted
+
+                // Etc (Basically misc but any mods that add no items)
+                interaction-wheel
+                corpse
+                notes
+                modern-ui
+                seamless-loading-screen
+                separated-leaves
+
+                // Redstone
+                dyeable-redstone-signal
+                more-red
+                colored-displays!
 
                 // Packdev
                 kubejs-create
                 kubejs-enderio
                 probejs
+                defaultworldtype
+            ]
+        }
+
+        electropunk-perf: {
+            name: Electropunk (Performance)
+            desc: Extra mods for performance
+            mods: [
+                adaptive-performance-tweaks
+                radium
             ]
         }
     }

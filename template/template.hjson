@@ -20,10 +20,10 @@
     modules: {
         // Core
         electropunk-core: { from: "$core" }
+        electropunk-perf: { from: "$core" }
 
         // Template
         performance: { from: "$impl" }
-        performance-aggressive: { from: "$impl" }
         tweaks: { from: "$impl" }
         bugfixes: { from: "$impl" }
         multiplayer: { from: "$impl" }
