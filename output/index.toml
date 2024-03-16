@@ -753,10 +753,6 @@ file = "config/zume.json5"
 hash = "83ddf96546250e3138dd6a115dd2f6c1f0b35b2d4d56a9c59ddd8bac81114d95"
 
 [[files]]
-file = "exports/modrinth.zip"
-hash = "7f6d02dd6fe2fd32d496de49dbbbd9ae9e359d6ef12d99c812009dcf74806db3"
-
-[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
