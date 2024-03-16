@@ -1,0 +1,13 @@
+name = "Forgiving World - Dimension Stacking[Forge/Fabric]"
+filename = "forgivingworld-1.20.1-4.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dfe1986fd8f3d51306c5daac84892c93e9a21a17"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5141517
+project-id = 523233

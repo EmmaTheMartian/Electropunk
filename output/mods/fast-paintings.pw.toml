@@ -1,0 +1,13 @@
+name = "Fast Paintings"
+filename = "fastpaintings-1.20-1.2.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/z3TzcquW/versions/dtPVJ8j9/fastpaintings-1.20-1.2.4.jar"
+hash-format = "sha1"
+hash = "94f4a3e8aff4467daabbeb6ba4c7f09f4fa25973"
+
+[update]
+[update.modrinth]
+mod-id = "z3TzcquW"
+version = "dtPVJ8j9"

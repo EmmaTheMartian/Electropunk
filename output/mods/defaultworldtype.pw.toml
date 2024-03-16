@@ -1,0 +1,13 @@
+name = "Default World Type"
+filename = "DefaultWorldType-1.20.1-4.0.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/kZvO1mDq/versions/2VytoA5j/DefaultWorldType-1.20.1-4.0.4.jar"
+hash-format = "sha1"
+hash = "0b6e6f8c7a7c8433280486d841450aa6df0fbee4"
+
+[update]
+[update.modrinth]
+mod-id = "kZvO1mDq"
+version = "2VytoA5j"

@@ -1,0 +1,13 @@
+name = "Super Factory Manager"
+filename = "Super Factory Manager-1.20.1-4.14.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aecUorJQ/versions/njkZiieG/Super%20Factory%20Manager-1.20.1-4.14.1.jar"
+hash-format = "sha1"
+hash = "0726e3b9650a948de2b6a0469fe42a55387fca15"
+
+[update]
+[update.modrinth]
+mod-id = "aecUorJQ"
+version = "njkZiieG"

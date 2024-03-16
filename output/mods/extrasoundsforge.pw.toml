@@ -1,0 +1,13 @@
+name = "ExtraSounds Forge"
+filename = "extrasounds-1.2c-1.20.1-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/jv7tzVE4/versions/Hh8kvpns/extrasounds-1.2c-1.20.1-forge.jar"
+hash-format = "sha1"
+hash = "f6e6b2290e419c3b28f2700ffa33ae32453c793f"
+
+[update]
+[update.modrinth]
+mod-id = "jv7tzVE4"
+version = "Hh8kvpns"

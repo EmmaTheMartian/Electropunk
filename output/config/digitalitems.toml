@@ -1,0 +1,9 @@
+
+#Item decay options
+[decay]
+	#Is item decay enabled
+	enableDecay = true
+	#After how many ticks do digital items decay? Default: 120000 (5 in game days)
+	#Range: 0 ~ 9223372036854775807
+	decay_ticks = 120000
+

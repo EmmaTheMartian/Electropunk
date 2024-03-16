@@ -1,0 +1,13 @@
+name = "Adaptive Performance Tweaks: Spawn"
+filename = "adaptive_performance_tweaks_spawn_1.20.1-11.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/217PsbJI/versions/nSMTMCF1/adaptive_performance_tweaks_spawn_1.20.1-11.0.0.jar"
+hash-format = "sha1"
+hash = "872f29ea9b151260aea9d7f8dddbb295890871a3"
+
+[update]
+[update.modrinth]
+mod-id = "217PsbJI"
+version = "nSMTMCF1"

@@ -1,0 +1,13 @@
+name = "Interaction Wheel"
+filename = "interactionwheel-1.20-3.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BOLRqEGC/versions/Iv505xJx/interactionwheel-1.20-3.0.0.jar"
+hash-format = "sha1"
+hash = "74c67978a5ed16f46082704a3430f642c76a1ac8"
+
+[update]
+[update.modrinth]
+mod-id = "BOLRqEGC"
+version = "Iv505xJx"

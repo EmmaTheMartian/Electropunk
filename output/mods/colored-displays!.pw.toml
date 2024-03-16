@@ -1,0 +1,13 @@
+name = "Colored Displays!"
+filename = "colored-displays-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dBNIoVkc/versions/gCULd0QK/colored-displays-1.20.1-1.0.0.jar"
+hash-format = "sha1"
+hash = "73efbb64e96bbed6b445d69ad6db832c2c925905"
+
+[update]
+[update.modrinth]
+mod-id = "dBNIoVkc"
+version = "gCULd0QK"

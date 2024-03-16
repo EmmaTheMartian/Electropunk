@@ -1,0 +1,13 @@
+name = "Dyeable Redstone Signal"
+filename = "dyeable_redstone_signal-3.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Vj7kcqix/versions/SbFR0NhX/dyeable_redstone_signal-3.0.0.jar"
+hash-format = "sha1"
+hash = "052be6b5f9f3ff8bb7849215fca5a7da263131b2"
+
+[update]
+[update.modrinth]
+mod-id = "Vj7kcqix"
+version = "SbFR0NhX"

@@ -1,0 +1,13 @@
+name = "Allay in a Bottle"
+filename = "Allay-In-A-Bottle-FORGE-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/O9DQqxgb/versions/UPHGoECD/Allay-In-A-Bottle-FORGE-1.1.2.jar"
+hash-format = "sha1"
+hash = "d108e04b9f4a6338c4432bce65d1bc1818a3eb57"
+
+[update]
+[update.modrinth]
+mod-id = "O9DQqxgb"
+version = "UPHGoECD"

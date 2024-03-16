@@ -1,0 +1,13 @@
+name = "Adaptive Performance Tweaks: Core"
+filename = "adaptive_performance_tweaks_core_1.20.1-11.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/L5xaBiBb/versions/WXmD77bb/adaptive_performance_tweaks_core_1.20.1-11.0.0.jar"
+hash-format = "sha1"
+hash = "4faf8993b31737b4f88a19f66baebfe1bceffa2a"
+
+[update]
+[update.modrinth]
+mod-id = "L5xaBiBb"
+version = "WXmD77bb"

@@ -1,0 +1,13 @@
+name = "Peripheralium"
+filename = "peripheralium-forge-1.20.1-0.6.15.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vV2a9qrZ/versions/J9AjdcpG/peripheralium-forge-1.20.1-0.6.15.jar"
+hash-format = "sha1"
+hash = "b47ae46365214ffa8828c284ea0f467b87bd9c46"
+
+[update]
+[update.modrinth]
+mod-id = "vV2a9qrZ"
+version = "J9AjdcpG"

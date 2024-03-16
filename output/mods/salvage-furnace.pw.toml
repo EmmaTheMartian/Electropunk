@@ -1,0 +1,13 @@
+name = "Salvage Furnace"
+filename = "Salvage Furnaces 1.9 (1.20.1).jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/awj91DS9/versions/2ZVGVRSd/Salvage%20Furnaces%201.9%20%281.20.1%29.jar"
+hash-format = "sha1"
+hash = "4bebafb89c85d81dfe300d085a49bcdd300c9f4f"
+
+[update]
+[update.modrinth]
+mod-id = "awj91DS9"
+version = "2ZVGVRSd"

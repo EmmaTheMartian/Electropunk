@@ -1,0 +1,13 @@
+name = "Create: steam robots"
+filename = "Steam robots.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9cSVxvMK/versions/i1QnfHw6/Steam%20robots.jar"
+hash-format = "sha1"
+hash = "9f5dd14b6995594713f737f9dab8ca2c817b2066"
+
+[update]
+[update.modrinth]
+mod-id = "9cSVxvMK"
+version = "i1QnfHw6"

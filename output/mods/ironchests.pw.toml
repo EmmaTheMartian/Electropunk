@@ -1,0 +1,13 @@
+name = "Iron Chests: Restocked"
+filename = "ironchests-5.0.2-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/n2de3t2z/versions/BlgpMWjV/ironchests-5.0.2-forge.jar"
+hash-format = "sha1"
+hash = "610aa09a1d83253db6bf32f6b12c84d446fa99b6"
+
+[update]
+[update.modrinth]
+mod-id = "n2de3t2z"
+version = "BlgpMWjV"

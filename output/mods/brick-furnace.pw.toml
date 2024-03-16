@@ -1,0 +1,13 @@
+name = "Brick Furnace"
+filename = "brickfurnace-1.20.1-2.1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yzHyAUSI/versions/sve8L3xE/brickfurnace-1.20.1-2.1.1.2.jar"
+hash-format = "sha1"
+hash = "87eb3446ac7da752f6f0fb6e70ea440abf74dd51"
+
+[update]
+[update.modrinth]
+mod-id = "yzHyAUSI"
+version = "sve8L3xE"

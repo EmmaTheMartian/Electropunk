@@ -1,0 +1,13 @@
+name = "Adaptive Performance Tweaks (Bundle)"
+filename = "adaptive_performance_tweaks_1.20.1-11.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/kLawTYXp/versions/l29Cij5q/adaptive_performance_tweaks_1.20.1-11.0.0.jar"
+hash-format = "sha1"
+hash = "dff5ad7f74b293215cee67bf28e3eabfee37f951"
+
+[update]
+[update.modrinth]
+mod-id = "kLawTYXp"
+version = "l29Cij5q"

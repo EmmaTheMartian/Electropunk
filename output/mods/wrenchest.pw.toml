@@ -1,0 +1,13 @@
+name = "Wrenchest"
+filename = "wrenchest-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zldgcXPr/versions/yXExQ6T0/wrenchest-1.20.1-1.0.1.jar"
+hash-format = "sha1"
+hash = "96acebf10f3a298d7a5fd3ce4c55e63df13756e9"
+
+[update]
+[update.modrinth]
+mod-id = "zldgcXPr"
+version = "yXExQ6T0"

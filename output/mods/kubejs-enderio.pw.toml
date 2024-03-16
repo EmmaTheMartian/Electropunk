@@ -1,0 +1,13 @@
+name = "KubeJS EnderIO"
+filename = "kubejs_enderio-forge-1.20.1-0.4.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/BotkzaBk/versions/rwLHMECR/kubejs_enderio-forge-1.20.1-0.4.1.jar"
+hash-format = "sha1"
+hash = "7a04465e071c4fee6aad4562cbb345a6e1c73f82"
+
+[update]
+[update.modrinth]
+mod-id = "BotkzaBk"
+version = "rwLHMECR"

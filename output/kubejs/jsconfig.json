@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "ES5",
+            "ES2015"
+        ],
+        "rootDirs": [
+            "probe/generated",
+            "probe/user",
+            "server_scripts",
+        ],
+        "target": "ES2015"
+    }
+}

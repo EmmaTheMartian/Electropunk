@@ -1,0 +1,13 @@
+name = "Turtle Charging Station"
+filename = "turtlechargingstation-1.4.2-1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/f7J3NZvt/versions/nOSobi12/turtlechargingstation-1.4.2-1.20.jar"
+hash-format = "sha1"
+hash = "f77ea8c15446d5cd80a16f389b90576ac1ec5b29"
+
+[update]
+[update.modrinth]
+mod-id = "f7J3NZvt"
+version = "nOSobi12"

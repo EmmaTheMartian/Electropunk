@@ -1,0 +1,13 @@
+name = "Modonomicon"
+filename = "modonomicon-1.20.1-forge-1.62.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/692GClaE/versions/jzABY4Hz/modonomicon-1.20.1-forge-1.62.0.jar"
+hash-format = "sha1"
+hash = "3d277e9d986942e27f29a30a16e5eea97154cc5c"
+
+[update]
+[update.modrinth]
+mod-id = "692GClaE"
+version = "jzABY4Hz"
