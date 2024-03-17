@@ -20,6 +20,7 @@ ServerEvents.recipes(event => {
         "iron_leggings",
         "iron_boots",
         "bucket",
+        "cauldron",
     ], "iron_ingot", "#forge:plates/iron")
 
     replaceMany({ type: "minecraft:crafting_shaped" }, [

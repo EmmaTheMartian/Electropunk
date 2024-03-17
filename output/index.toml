@@ -777,6 +777,10 @@ file = "kubejs/server_scripts/init.js"
 hash = "8607a1e0a1b61d66c15ea34dbbd55591b186603c8450cb22b37da042a57e84b2"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/campfire_cooking.js"
+hash = "725e5ea66cccfe8ee78dc429ca4d916b1a30decc43261f3c7a3513d99a35d917"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/crafting_shaped.js"
 hash = "2e35c4a91e042e834ee8ccf20e5ad2e8abc6cb5c861f1fdaab2d28a472fd7f8c"
 

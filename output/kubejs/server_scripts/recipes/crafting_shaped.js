@@ -27,13 +27,24 @@ ServerEvents.recipes(event => {
 
     r("chest", ["PPP", "PIP", "PPP"], {
         P: "#planks",
-        I: "#forge:nuggets/iron"
+        I: "#forge:nuggets/iron",
+    })
+
+    r("barrel", ["PSP", "PIP", "PSP"], {
+        P: "#planks",
+        S: "#wooden_slabs",
+        I: "#forge:nuggets/iron",
     })
 
     //ANCHOR - create:*
     r("create:andesite_alloy", ["AZ", "ZA"], {
         A: "andesite",
         Z: "#forge:ingots/zinc"
+    })
+
+    r("create:andesite_alloy", ["AZ", "ZA"], {
+        A: "andesite",
+        Z: "#forge:ingots/iron"
     })
 
     r("2x create:shaft", ["Z", "Z", "Z"], {
@@ -76,8 +87,42 @@ ServerEvents.recipes(event => {
         L: "#forge:stripped_logs"
     })
 
+    r("create:fluid_pipe", ["CCC", "   ", "CCC"], {
+        C: "#forge:plates/copper"
+    })
+
+    r("create:fluid_pipe", ["C C", "C C", "C C"], {
+        C: "#forge:plates/copper"
+    })
+
     //ANCHOR - Create D&D
     r("create_dd:andesite_sheet", ["AAA"], {
         A: "#forge:andesite_alloy"
+    })
+
+    //ANCHOR - Railcraft
+    r("railcraft:low_pressure_steam_boiler_tank", ["I I", "I I", "VVV"], {
+        I: "#forge:plates/iron",
+        V: "#forge:plates/invar",
+    })
+
+    r("railcraft:high_pressure_steam_boiler_tank", ["I I", "I I", "VVV"], {
+        I: "#forge:plates/steel",
+        V: "#forge:plates/invar",
+    })
+
+    r("railcraft:solid_fueled_firebox", ["PPP", "PBP", "ICI"], {
+        P: "#forge:plates/steel",
+        I: "#forge:plates/invar",
+        B: "blast_furnace",
+        C: "create_dd:steel_casing",
+    })
+
+    r("railcraft:fluid_fueled_firebox", ["PTP", "PBP", "ICI"], {
+        P: "#forge:plates/steel",
+        I: "#forge:plates/invar",
+        B: "blast_furnace",
+        C: "create_dd:steel_casing",
+        T: "create:fluid_tank",
     })
 })

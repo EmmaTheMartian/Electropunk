@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
         "minecraft:smoker",
         "minecraft:chest",
         "minecraft:hopper",
+        "minecraft:barrel",
 
         "create:andesite_alloy",
         "create:shaft",
@@ -23,6 +24,7 @@ ServerEvents.recipes(event => {
         "create:water_wheel",
         "create:large_water_wheel",
         "create:hand_crank",
+        "create:fluid_pipe",
 
         "turtlechargingstation:thundercharge_dynamo",
         "turtlechargingstation:turtle_charging_station",
@@ -30,9 +32,21 @@ ServerEvents.recipes(event => {
         "railcraft:bronze_ingot",
         "railcraft:brass_ingot",
         "railcraft:invar_ingot",
+        "railcraft:low_pressure_steam_boiler_tank",
+        "railcraft:high_pressure_steam_boiler_tank",
+        "railcraft:solid_fueled_firebox",
+        "railcraft:fluid_fueled_firebox",
+        // "railcraft:iron_tank_wall",
+        // "railcraft:iron_tank_valve",
+        // "railcraft:iron_tank_gauge",
+        // "railcraft:steel_tank_wall",
+        // "railcraft:steel_tank_valve",
+        // "railcraft:steel_tank_gauge",
 
         /factorium:mat_.*_plate/,
     ])
+
+    event.remove({ type: "crafting_shaped", input: "iron_nugget", output: /minecraft:chainmail_.*/, id: /mna:.*/ })
 
     removeAll({ type: "crafting_shapeless" }, [
         "create:cogwheel",
@@ -54,13 +68,18 @@ ServerEvents.recipes(event => {
         "create:large_cogwheel",
     ])
 
+    removeAll({ type: "create:compacting" }, [
+        "create_dd:steel_ingot"
+    ])
+
     //ANCHOR - Farmer's Delight
     removeAll({ type: "farmersdelight:cutting" }, [
         "flint",
     ])
 
-    //ANCHOR - Factorium
-    removeAll({ type: "factorium:alloy" }, [
-        "#forge:ingots/brass"
+    //ANCHOR - Railcraft
+    removeAll({ type: "railcraft:blasting" }, [
+        "railcraft:steel_ingot",
+        "railcraft:steel_block",
     ])
 })
